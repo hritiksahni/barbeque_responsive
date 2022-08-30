@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.top_text {
+    color: #F18119;
+    text-align: center;
+    font-size: 0.62rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    border-top: 5px solid #F18119;
+    padding-top: 2px;
+    border-image: linear-gradient(to left,#FF895D,#DF4E13, #ffa51d) 1;
+        }   
+.section1_text1 {
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+strong {
+    font-weight: 900;
+}
+.section1_text2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #F18119;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+.section2_text1 {
+    color: #404040;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.section2_text2 {
+    color: #F18119;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section2_body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    color: #5A5A5A;
+
+}
+.section2_text3 {
+    color: #989898;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.62rem;
+    text-align: center;
+    font-weight: 400  ;
+    padding: 1.5em;
+}
+
+.form_part{
+    width: 80%;
+    max-width: 300px;
+    margin-top: 1em;
+   
+    
+   
+}
+.names {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 7px;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    transform: scale(1);
+    transition: 300ms;
+}
+.names:focus {
+    transform: scale(1.05);
+}
+
+.reg_btn {
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 900;
+    align-items: center;
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: white;
+    border: 0;
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    transform: scale(1);
+    transition: 250ms;
+}
+.reg_btn:hover,.reg_btn:focus {
+    transform: scale(1.05);
+}
+
+
+
+.section_1 {
+    background-image: url(../images/dark-ribs.jpg);
+    padding: 0 0.7em 2em;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-color: #404040;
+    background-position: center;
+    justify-content: space-between;
+    min-height: 50vh;
+}
+
+.section2 {
+   padding: 2em 1em;
+}
+
+.section_1 *,.section2 * {
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 500px) {
+ .section1_text1 {
+    font-size: 3.5rem;
+ }
+ .section1_text2 {
+    font-size: 1.75rem;
+ }
+ .section2_text1 {
+    font-size: 1.75rem;
+ }
+ .section2_text2 {
+    font-size: 1.125rem;
+ }
+ .section2_body {
+    font-size: 1.125rem;
+ }
+ body {
+    display: flex;  
+        
+ }
+ .section_1,.section2 {
+    width: 50%;
+    min-height: 100vh;
+
+ }
+ .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+}
+
